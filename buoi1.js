@@ -3,7 +3,7 @@
 // 2: Kieu du lieu
 // Các trường hợp gặp undefined
 // var và let khong khai báo thì undefined nhưng const thì khong đươợ
-let a
+var a
 console.log(a)
 
 // 3: object
@@ -16,3 +16,19 @@ console.log(teo)
 
 // 4: Kieu Array
 // Khi dùng const thì có thể thay đổi các giá trị phần tử nhưng không được thay đổi count phần tử
+
+// 5: Toán tử
+// + - * / % ++ --
+var a = 5
+var b = a++
+console.log(b)
+
+var c = ++a - --b + ++b + a-- - b++
+// dap an: 7
+console.log(c)
+
+// 7: Function
+function showName(a, b, c) {
+    return
+}
+console.log(showName())
