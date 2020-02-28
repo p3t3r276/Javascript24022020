@@ -44,3 +44,10 @@ var teo = {
 console.log(teo.getName());
 
 // Template Strings (Template literals)
+
+// 9: Toan tử so sánh
+// Mặc định trả về kiểu số để so sánh, do JS tự dịch theo bảng mã ASCII rồi mới so sánh
+// dịch '100' từ trái sang phải, chỉ dịch 1, trả ra 5 > 1, thì dừng lại.
+var a = 5;
+var b = "100";
+console.log(a > b);
