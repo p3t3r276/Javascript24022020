@@ -34,11 +34,13 @@
 // console.log(showName())
 
 // 8: Object method
-var teo = { 
-    name: "Nguyen Van Teo", 
-    age: 10,
-    getName: function() {
-        return this.name
-    }
-}
-console.log(teo.getName())
+var teo = {
+  name: "Nguyen Van Teo",
+  age: 10,
+  getName: function() {
+    return this.name;
+  }
+};
+console.log(teo.getName());
+
+// Template Strings (Template literals)
