@@ -75,3 +75,16 @@
 //   });
 
 // console.log(total);
+
+// 16: Ham sort
+// return a - b: Tăng dần
+// return b - a: nhỏ dần
+
+// 17: khoi tao object
+function Sinhvien(name, age, address) {
+  this.name = name;
+  this.age = age;
+  this.address = address;
+}
+const teo = new Sinhvien("Nguyen Van Teo", 20, "38 Nguyen Lam");
+console.log(teo.name);
