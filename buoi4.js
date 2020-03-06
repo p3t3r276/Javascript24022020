@@ -31,30 +31,47 @@
 // ];
 // console.log(totalVotes(voters)); // 7
 
-function shoppingSpree(arr) {
-  return arr.reduce(function(prev, current) {
-    if (current.price) return prev + current.price;
-    return prev;
-  }, 0);
-}
+// function shoppingSpree(arr) {
+//   return arr.reduce(function(prev, current) {
+//     if (current.price) return prev + current.price;
+//     return prev;
+//   }, 0);
+// }
 
-var wishlist = [
-  { title: "Tesla Model S", price: 90000 },
-  { title: "4 carat diamond ring", price: 45000 },
-  { title: "Fancy hacky Sack", price: 5 },
-  { title: "Gold fidgit spinner", price: 2000 },
-  { title: "A second Tesla Model S", price: 90000 }
-];
-console.log(shoppingSpree(wishlist)); // 227005
+// var wishlist = [
+//   { title: "Tesla Model S", price: 90000 },
+//   { title: "4 carat diamond ring", price: 45000 },
+//   { title: "Fancy hacky Sack", price: 5 },
+//   { title: "Gold fidgit spinner", price: 2000 },
+//   { title: "A second Tesla Model S", price: 90000 }
+// ];
+// console.log(shoppingSpree(wishlist)); // 227005
 
-function countOccurrences(arr) {
-  return arr.reduce(function(prev, current) {
-    if (current in prev) {
-      prev[current] = prev[current] + 1;
-    } else {
-      prev[current] = 1;
-    }
-    return prev;
-  }, {});
-}
-console.log(countOccurrences(["a", "b", "c", "b", "a", "a"]));
+// function countOccurrences(arr) {
+//   return arr.reduce(function(prev, current) {
+//     if (current in prev) {
+//       prev[current] = prev[current] + 1;
+//     } else {
+//       prev[current] = 1;
+//     }
+//     return prev;
+//   }, {});
+// }
+// console.log(countOccurrences(["a", "b", "c", "b", "a", "a"]));
+
+// const arraySinhVien = [
+//   { name: "Teo", age: 10 },
+//   { name: "TI", age: 20 },
+//   { name: "Tuan", age: 15 }
+// ];
+
+// Ket hop phuong thuc map va reduce de tinh tong tuoi
+// const total = arraySinhVien
+//   .map(function(sinhvien) {
+//     return sinhvien.age;
+//   })
+//   .reduce(function(prev, current) {
+//     return prev + current;
+//   });
+
+// console.log(total);
