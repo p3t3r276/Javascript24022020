@@ -114,3 +114,18 @@ function doSomethingTernary(a) {
 
 console.log(doSomethingTernary(0));
 console.log(doSomething(0));
+
+// JS Nang cao
+// 1: var let const
+
+// bien toan cuc
+let name = "Teo";
+
+function showName() {
+  // bien cuc bo
+  let name = "Ti";
+  return name;
+}
+console.log(name);
+
+// xu ly khai bao bien trong scope truoc, neu khong co moi kiem toan cuc.
