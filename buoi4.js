@@ -93,3 +93,24 @@ const ti = new Sinhvien("Ngyen Van Ti", 21, "asdasd");
 console.log(teo.schoolName);
 console.log(ti.schoolName);
 // prototype ko tao o vung moi. Tất cả object dùng chung một prototype.
+
+// 18: toan tu ba ngoi
+// bieuthuc ? true : false
+function doSomething(a) {
+  var b;
+  if (a > 0) {
+    b = 1;
+  } else if (a < 0) {
+    b = 2;
+  } else {
+    b = 3;
+  }
+  return b;
+}
+
+function doSomethingTernary(a) {
+  return a > 0 ? 1 : a < 0 ? 2 : 3;
+}
+
+console.log(doSomethingTernary(0));
+console.log(doSomething(0));
