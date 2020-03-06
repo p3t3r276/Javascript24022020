@@ -86,5 +86,10 @@ function Sinhvien(name, age, address) {
   this.age = age;
   this.address = address;
 }
+
 const teo = new Sinhvien("Nguyen Van Teo", 20, "38 Nguyen Lam");
-console.log(teo.name);
+Sinhvien.prototype.schoolName = "hehe";
+const ti = new Sinhvien("Ngyen Van Ti", 21, "asdasd");
+console.log(teo.schoolName);
+console.log(ti.schoolName);
+// prototype ko tao o vung moi. Tất cả object dùng chung một prototype.
